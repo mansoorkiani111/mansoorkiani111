@@ -1,0 +1,87 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 330" width="1200" height="330" role="img" aria-label="How work reaches me: half-built and abandoned, built fast now breaking, or still just an idea — all go through read everything and write the plan, then ship in small reviewable steps, then handover">
+  <defs>
+    <linearGradient id="fbg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1A"/>
+      <stop offset="60%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0C1D18"/>
+    </linearGradient>
+    <linearGradient id="fmint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18CB96"/>
+      <stop offset="100%" stop-color="#36DDAC"/>
+    </linearGradient>
+    <marker id="arw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#18CB96"/>
+    </marker>
+    <marker id="arwd" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4B5563"/>
+    </marker>
+    <filter id="glowsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#18CB96" flood-opacity="0.32"/>
+    </filter>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="58%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.34"/>
+    </radialGradient>
+    <pattern id="dotsd" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.2" fill="#18CB96" fill-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="330" rx="16" fill="url(#fbg)"/>
+  <rect width="1200" height="330" rx="16" fill="url(#dotsd)"/>
+  <rect width="1200" height="330" fill="url(#vig)"/>
+  <rect x="0.5" y="0.5" width="1199" height="329" rx="16" fill="none" stroke="#18CB96" stroke-opacity="0.18"/>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+    <text x="40" y="40" font-size="12" font-weight="700" fill="#4B5563" letter-spacing="2.6">HOW WORK REACHES ME</text>
+
+    <!-- intake -->
+    <g>
+      <rect x="40" y="70" width="214" height="56" rx="10" fill="#1F2937" stroke="#4B5563"/>
+      <text x="147" y="94" font-size="14" font-weight="600" fill="#E5E7EB" text-anchor="middle">Half-built</text>
+      <text x="147" y="113" font-size="14" font-weight="600" fill="#E5E7EB" text-anchor="middle">and abandoned</text>
+    </g>
+    <g>
+      <rect x="40" y="148" width="214" height="56" rx="10" fill="#1F2937" stroke="#4B5563"/>
+      <text x="147" y="172" font-size="14" font-weight="600" fill="#E5E7EB" text-anchor="middle">Built fast,</text>
+      <text x="147" y="191" font-size="14" font-weight="600" fill="#E5E7EB" text-anchor="middle">now breaking</text>
+    </g>
+    <g>
+      <rect x="40" y="226" width="214" height="56" rx="10" fill="#1F2937" stroke="#4B5563"/>
+      <text x="147" y="250" font-size="14" font-weight="600" fill="#E5E7EB" text-anchor="middle">Still just</text>
+      <text x="147" y="269" font-size="14" font-weight="600" fill="#E5E7EB" text-anchor="middle">an idea</text>
+    </g>
+
+    <!-- converging arrows -->
+    <g fill="none" stroke="#4B5563" stroke-width="1.6">
+      <path d="M254 98 C 300 98, 308 158, 348 174" marker-end="url(#arwd)"/>
+      <path d="M254 176 L 348 176" marker-end="url(#arwd)"/>
+      <path d="M254 254 C 300 254, 308 194, 348 178" marker-end="url(#arwd)"/>
+    </g>
+
+    <!-- step 1 -->
+    <g>
+      <rect x="358" y="136" width="218" height="80" rx="12" fill="url(#fmint)" filter="url(#glowsoft)"/>
+      <text x="467" y="169" font-size="15" font-weight="700" fill="#06291F" text-anchor="middle">Read everything</text>
+      <text x="467" y="190" font-size="15" font-weight="700" fill="#06291F" text-anchor="middle">Write the plan</text>
+    </g>
+    <path d="M580 176 L 638 176" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#arw)"/>
+
+    <!-- step 2 -->
+    <g>
+      <rect x="648" y="136" width="218" height="80" rx="12" fill="url(#fmint)" filter="url(#glowsoft)"/>
+      <text x="757" y="169" font-size="15" font-weight="700" fill="#06291F" text-anchor="middle">Ship in small</text>
+      <text x="757" y="190" font-size="15" font-weight="700" fill="#06291F" text-anchor="middle">reviewable steps</text>
+    </g>
+    <path d="M870 176 L 928 176" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#arw)"/>
+
+    <!-- step 3 -->
+    <g>
+      <rect x="938" y="136" width="222" height="80" rx="12" fill="#111827" stroke="#18CB96" stroke-width="2"/>
+      <text x="1049" y="169" font-size="15" font-weight="700" fill="#6EE7C7" text-anchor="middle">Handover</text>
+      <text x="1049" y="190" font-size="14" font-weight="500" fill="#9CA3AF" text-anchor="middle">you own all of it</text>
+    </g>
+
+    <text x="40" y="312" font-size="13" fill="#6B7280">Three starting points, one process.</text>
+  </g>
+</svg>

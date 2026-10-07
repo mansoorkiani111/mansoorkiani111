@@ -1,0 +1,108 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" width="1200" height="360" role="img" aria-label="Mansoor Kiani - Full-stack engineer, Founder and CEO of Dymlo. I build and rescue production web apps.">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#070B13"/>
+      <stop offset="42%" stop-color="#0D1522"/>
+      <stop offset="100%" stop-color="#09201B"/>
+    </linearGradient>
+    <linearGradient id="mintbar" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#8FF3D8"/>
+      <stop offset="100%" stop-color="#18CB96"/>
+    </linearGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#18CB96" stop-opacity="0"/>
+      <stop offset="28%" stop-color="#18CB96" stop-opacity="0.55"/>
+      <stop offset="62%" stop-color="#6EE7C7" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#18CB96" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="glowR" cx="0.84" cy="0.34" r="0.58">
+      <stop offset="0%" stop-color="#18CB96" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#18CB96" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="glowL" cx="0.02" cy="1.02" r="0.52">
+      <stop offset="0%" stop-color="#18CB96" stop-opacity="0.14"/>
+      <stop offset="100%" stop-color="#18CB96" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="vignette" cx="0.5" cy="0.5" r="0.78">
+      <stop offset="55%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.45"/>
+    </radialGradient>
+    <pattern id="dots" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.25" fill="#18CB96" fill-opacity="0.07"/>
+    </pattern>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7"/>
+    </filter>
+    <clipPath id="card"><rect width="1200" height="360" rx="18"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#card)">
+    <rect width="1200" height="360" fill="url(#bg)"/>
+    <rect width="1200" height="360" fill="url(#dots)"/>
+    <rect width="1200" height="360" fill="url(#glowR)"/>
+    <rect width="1200" height="360" fill="url(#glowL)"/>
+
+    <!-- flowing waves -->
+    <g fill="none" stroke="#18CB96">
+      <path d="M-60 296 C 180 240, 380 342, 620 282 S 1000 198, 1260 254" stroke-width="1.5" stroke-opacity="0.24"/>
+      <path d="M-60 320 C 190 266, 390 364, 630 306 S 1010 222, 1260 276" stroke-width="1.2" stroke-opacity="0.17"/>
+      <path d="M-60 272 C 170 218, 370 320, 610 260 S 990 176, 1260 232" stroke-width="1.2" stroke-opacity="0.15"/>
+      <path d="M-60 344 C 200 292, 400 386, 640 330 S 1020 246, 1260 298" stroke-width="1" stroke-opacity="0.10"/>
+      <path d="M-60 248 C 160 196, 360 294, 600 238 S 980 156, 1260 210" stroke-width="1" stroke-opacity="0.09"/>
+    </g>
+
+    <!-- system graph, right -->
+    <g transform="translate(18,0)">
+      <circle cx="1002" cy="150" r="46" fill="#18CB96" fill-opacity="0.16" filter="url(#soft)"/>
+      <g stroke="#18CB96" stroke-opacity="0.32" stroke-width="1.15" fill="none">
+        <path d="M1002 82 L 916 150"/><path d="M1002 82 L 1096 142"/>
+        <path d="M916 150 L 1006 212"/><path d="M1096 142 L 1006 212"/>
+        <path d="M916 150 L 1096 142"/><path d="M1006 212 L 1072 272"/>
+        <path d="M916 150 L 934 236"/><path d="M934 236 L 1072 272"/>
+        <path d="M934 236 L 1006 212"/>
+      </g>
+      <g fill="#0B1420" stroke="#18CB96">
+        <circle cx="916"  cy="150" r="7"   stroke-opacity="0.62" stroke-width="1.8"/>
+        <circle cx="1096" cy="142" r="7"   stroke-opacity="0.62" stroke-width="1.8"/>
+        <circle cx="934"  cy="236" r="5.2" stroke-opacity="0.46" stroke-width="1.5"/>
+        <circle cx="1072" cy="272" r="5.2" stroke-opacity="0.46" stroke-width="1.5"/>
+        <circle cx="1002" cy="82"  r="9"   stroke-opacity="0.9"  stroke-width="2.1"/>
+        <circle cx="1006" cy="212" r="8"   stroke-opacity="0.78" stroke-width="2"/>
+      </g>
+      <circle cx="1002" cy="82"  r="3.4" fill="#8FF3D8"/>
+      <circle cx="1006" cy="212" r="2.9" fill="#6EE7C7"/>
+      <circle cx="1096" cy="142" r="2.2" fill="#18CB96" fill-opacity="0.8"/>
+    </g>
+
+    <!-- left accent bar -->
+    <rect x="64" y="92" width="4" height="134" rx="2" fill="url(#mintbar)"/>
+
+    <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+      <text x="96" y="116" font-size="12" font-weight="700" fill="#18CB96" fill-opacity="0.78" letter-spacing="3.4">FULL-STACK ENGINEER</text>
+      <text x="94" y="183" font-size="64" font-weight="700" fill="#FFFFFF" letter-spacing="-1.8">Mansoor Kiani</text>
+      <text x="96" y="218" font-size="20" font-weight="600" fill="#18CB96">Founder &amp; CEO, Dymlo</text>
+      <text x="96" y="252" font-size="17" font-weight="400" fill="#93A3B8">I build and rescue production web apps.</text>
+    </g>
+
+    <!-- stack chips -->
+    <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif" font-size="12.5" font-weight="600" fill="#6EE7C7" text-anchor="middle">
+      <rect x="96"  y="280" width="78"  height="27" rx="13.5" fill="#18CB96" fill-opacity="0.10" stroke="#18CB96" stroke-opacity="0.36"/><text x="135" y="298">Next.js</text>
+      <rect x="182" y="280" width="70"  height="27" rx="13.5" fill="#18CB96" fill-opacity="0.10" stroke="#18CB96" stroke-opacity="0.36"/><text x="217" y="298">React</text>
+      <rect x="260" y="280" width="96"  height="27" rx="13.5" fill="#18CB96" fill-opacity="0.10" stroke="#18CB96" stroke-opacity="0.36"/><text x="308" y="298">TypeScript</text>
+      <rect x="364" y="280" width="90"  height="27" rx="13.5" fill="#18CB96" fill-opacity="0.10" stroke="#18CB96" stroke-opacity="0.36"/><text x="409" y="298">Supabase</text>
+      <rect x="462" y="280" width="100" height="27" rx="13.5" fill="#18CB96" fill-opacity="0.10" stroke="#18CB96" stroke-opacity="0.36"/><text x="512" y="298">PostgreSQL</text>
+      <rect x="570" y="280" width="70"  height="27" rx="13.5" fill="#18CB96" fill-opacity="0.10" stroke="#18CB96" stroke-opacity="0.36"/><text x="605" y="298">Stripe</text>
+    </g>
+
+    <!-- credential pill -->
+    <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+      <rect x="878" y="279" width="258" height="29" rx="14.5" fill="#18CB96" fill-opacity="0.12" stroke="#18CB96" stroke-opacity="0.42"/>
+      <circle cx="902" cy="293.5" r="3.6" fill="#18CB96"/>
+      <text x="1116" y="298" font-size="12.5" font-weight="700" fill="#8FF3D8" text-anchor="end">Top Rated on Upwork · 100% JSS</text>
+    </g>
+
+    <rect width="1200" height="360" fill="url(#vignette)"/>
+    <rect x="0" y="0" width="1200" height="1.6" fill="url(#topline)"/>
+    <rect x="0.5" y="0.5" width="1199" height="359" rx="18" fill="none" stroke="#18CB96" stroke-opacity="0.20"/>
+  </g>
+</svg>

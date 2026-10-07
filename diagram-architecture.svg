@@ -1,0 +1,93 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 520" width="1200" height="520" role="img" aria-label="Typical architecture: users hit a Next.js App Router app deployed on Vercel, which uses Supabase Auth with row-level security and Node route handlers, backed by a multi-tenant PostgreSQL database with an audit log, plus Stripe webhooks and OpenAI or Claude APIs">
+  <defs>
+    <linearGradient id="abg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#0A0F1A"/>
+      <stop offset="60%" stop-color="#111827"/>
+      <stop offset="100%" stop-color="#0C1D18"/>
+    </linearGradient>
+    <linearGradient id="amint" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#18CB96"/>
+      <stop offset="100%" stop-color="#36DDAC"/>
+    </linearGradient>
+    <marker id="aarw" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#18CB96"/>
+    </marker>
+    <marker id="aarwg" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#4B5563"/>
+    </marker>
+    <filter id="glowsoft" x="-60%" y="-60%" width="220%" height="220%">
+      <feDropShadow dx="0" dy="3" stdDeviation="7" flood-color="#18CB96" flood-opacity="0.32"/>
+    </filter>
+    <radialGradient id="vig" cx="0.5" cy="0.5" r="0.8">
+      <stop offset="58%" stop-color="#000000" stop-opacity="0"/>
+      <stop offset="100%" stop-color="#000000" stop-opacity="0.34"/>
+    </radialGradient>
+    <pattern id="dotsd" width="26" height="26" patternUnits="userSpaceOnUse">
+      <circle cx="1.6" cy="1.6" r="1.2" fill="#18CB96" fill-opacity="0.055"/>
+    </pattern>
+  </defs>
+
+  <rect width="1200" height="520" rx="16" fill="url(#abg)"/>
+  <rect width="1200" height="520" rx="16" fill="url(#dotsd)"/>
+  <rect width="1200" height="520" fill="url(#vig)"/>
+  <rect x="0.5" y="0.5" width="1199" height="519" rx="16" fill="none" stroke="#18CB96" stroke-opacity="0.18"/>
+
+  <g font-family="'Segoe UI','Helvetica Neue',Helvetica,Arial,sans-serif">
+    <text x="40" y="40" font-size="12" font-weight="700" fill="#4B5563" letter-spacing="2.6">WHAT I USUALLY BUILD</text>
+
+    <!-- Users -->
+    <rect x="500" y="66" width="200" height="46" rx="23" fill="#0F172A" stroke="#334155" stroke-width="1.6"/>
+    <text x="600" y="95" font-size="15" font-weight="600" fill="#CBD5E1" text-anchor="middle">Users</text>
+    <path d="M600 112 L 600 148" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#aarw)"/>
+
+    <!-- Next.js -->
+    <rect x="420" y="156" width="360" height="74" rx="12" fill="url(#amint)" filter="url(#glowsoft)"/>
+    <text x="600" y="187" font-size="16" font-weight="700" fill="#06291F" text-anchor="middle">Next.js · App Router</text>
+    <text x="600" y="210" font-size="13.5" font-weight="600" fill="#06291F" fill-opacity="0.78" text-anchor="middle">Server Components + SSR</text>
+
+    <!-- Vercel, right -->
+    <rect x="900" y="162" width="236" height="62" rx="12" fill="#0F172A" stroke="#334155" stroke-width="1.6"/>
+    <text x="1018" y="188" font-size="14.5" font-weight="700" fill="#CBD5E1" text-anchor="middle">Vercel</text>
+    <text x="1018" y="208" font-size="12.5" fill="#64748B" text-anchor="middle">edge · ISR · preview deploys</text>
+    <path d="M780 193 L 892 193" fill="none" stroke="#4B5563" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#aarwg)"/>
+    <text x="836" y="183" font-size="11" fill="#6B7280" text-anchor="middle">deploys on</text>
+
+    <!-- Auth + API -->
+    <path d="M520 230 C 520 262, 380 254, 348 282" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#aarw)"/>
+    <path d="M680 230 C 680 262, 790 254, 822 282" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#aarw)"/>
+
+    <rect x="150" y="290" width="266" height="74" rx="12" fill="#1F2937" stroke="#18CB96" stroke-width="1.8"/>
+    <text x="283" y="321" font-size="15" font-weight="700" fill="#6EE7C7" text-anchor="middle">Supabase Auth</text>
+    <text x="283" y="343" font-size="13" fill="#9CA3AF" text-anchor="middle">row-level security</text>
+
+    <rect x="784" y="290" width="266" height="74" rx="12" fill="#1F2937" stroke="#18CB96" stroke-width="1.8"/>
+    <text x="917" y="321" font-size="15" font-weight="700" fill="#6EE7C7" text-anchor="middle">Route handlers</text>
+    <text x="917" y="343" font-size="13" fill="#9CA3AF" text-anchor="middle">Node services</text>
+
+    <!-- DB -->
+    <path d="M283 364 C 283 400, 470 394, 520 414" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#aarw)"/>
+    <path d="M880 364 C 880 398, 700 396, 672 414" fill="none" stroke="#18CB96" stroke-width="2" marker-end="url(#aarw)"/>
+
+    <g>
+      <rect x="452" y="420" width="292" height="66" rx="14" fill="#111827" stroke="#18CB96" stroke-width="2.2"/>
+      <ellipse cx="598" cy="420" rx="146" ry="11" fill="#111827" stroke="#18CB96" stroke-width="2.2"/>
+      <text x="598" y="452" font-size="15" font-weight="700" fill="#6EE7C7" text-anchor="middle">PostgreSQL</text>
+      <text x="598" y="472" font-size="12.5" fill="#9CA3AF" text-anchor="middle">multi-tenant · append-only audit log</text>
+    </g>
+
+    <!-- services, right column -->
+    <path d="M1050 327 L 1104 327 L 1104 400" fill="none" stroke="#4B5563" stroke-width="1.6"/>
+    <path d="M1104 400 L 1104 418" fill="none" stroke="#4B5563" stroke-width="1.6" marker-end="url(#aarwg)"/>
+    <rect x="960" y="424" width="188" height="62" rx="12" fill="#111827" stroke="#4B5563" stroke-width="1.6"/>
+    <text x="1054" y="449" font-size="14" font-weight="700" fill="#9CA3AF" text-anchor="middle">Stripe</text>
+    <text x="1054" y="469" font-size="12" fill="#6B7280" text-anchor="middle">webhooks · idempotency</text>
+
+    <path d="M784 327 L 740 327 L 740 400" fill="none" stroke="#4B5563" stroke-width="1.6" opacity="0"/>
+    <path d="M1050 300 L 1118 300 L 1118 244" fill="none" stroke="#4B5563" stroke-width="1.6" opacity="0"/>
+
+    <rect x="56" y="424" width="212" height="62" rx="12" fill="#111827" stroke="#4B5563" stroke-width="1.6"/>
+    <text x="162" y="449" font-size="14" font-weight="700" fill="#9CA3AF" text-anchor="middle">OpenAI / Claude</text>
+    <text x="162" y="469" font-size="12" fill="#6B7280" text-anchor="middle">structured output</text>
+    <path d="M820 364 C 700 408, 360 400, 276 440" fill="none" stroke="#4B5563" stroke-width="1.6" stroke-dasharray="5 5" marker-end="url(#aarwg)"/>
+  </g>
+</svg>
